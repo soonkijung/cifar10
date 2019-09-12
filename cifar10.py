@@ -165,8 +165,8 @@ def plot_sampleImages(images, labels, label_names, columSize):
         ax.set_xticks([])
         ax.set_yticks([])
 
-train_images, train_labels, test_images, test_labels, label_names = cifar10()
+# train_images, train_labels, test_images, test_labels, label_names = cifar10()
 
-plot_sampleImages(train_images[:100,:], train_labels[:100], label_names, 10)
+# plot_sampleImages(train_images[:100,:], train_labels[:100], label_names, 10)
 
 # plot_sampleImages(test_images[:10,:], test_labels[:10], label_names, 10)
